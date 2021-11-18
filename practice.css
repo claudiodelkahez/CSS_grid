@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+.contenedor {
+    margin: 5rem;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-auto-columns: 200px 200px;
+    grid-auto-flow: column;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.item__1 {
+    color: #fff;
+    font-size: 4rem;
+    background: #00ff0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.item__1 div {
+    padding: 5px 15px;
+    background: #028d09;
+}
+.item__2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 4rem;
+    background: #00d40b;
+}
+.item__2 div {
+    padding: 5px 15px;
+    background: #028d09;
+}
+.item__3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 4rem;
+    color: #fff;
+    background: #00b309;
+}
+.item__3 div {
+    padding: 5px 15px;
+    background: #002202;
+}
+.item__4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 4rem;
+    background: #00d40b;
+}
+.item__4 div {
+    padding: 5px 15px;
+    background: #028d09;
+}
+.item__5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 4rem;
+    background: #00d40b;
+}
+.item__5 div {
+    padding: 5px 15px;
+    background: #028d09;
+}
+.item__6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 4rem;
+    background: #00b309;
+}
+.item__6 div {
+    padding: 5px 15px;
+    background: #002202;
+}
